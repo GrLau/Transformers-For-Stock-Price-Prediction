@@ -4,25 +4,24 @@ This project experiments with the Autoformer by Wu et al. [[paper](https://arxiv
 ## Introduction
 Forecasting stock prices is an essential part of the finance industry. Instead of using stock indicators and other tactics practiced by human analysts, we use trained time series models to predict a stock's future price. Below we give a brief explanation of each model and present the results.
 
-:triangular_flag_on_post: **Disclaimer:** These models are not foolproof. If you use any of these models to make financial decissions, we disclaim any liability for any negative outcomes resulting from the use of these models
-
+:triangular_flag_on_post: **Disclaimer:** These models are not foolproof. We strongly discourage basing any financial decisions on these models and disclaim any liability for any negative outcomes resulting from the use of these models
 
 
 
 ## Models
 Each model's performance is evaluated by calculating its mean absolute error (MAE).
 
-### Autoformer
+## Autoformer
 The Autoformer is a type of transformer model, unique for its auto-correlation mechanism.
 
 *Add architecture image*
 
-### LSTM
-The LSTM learns to retain relevant information over long sequences, while discarding less important data, which makes it effective for tasks like forecasting.
+## LSTM
+The LSTM learns to retain relevant information over long sequences while discarding less important data, which makes it effective for tasks like forecasting.
 
 *Add architecture image*
 
-### TimesFM
+## TimesFM
 TimesFM is a type of transformer that is trained on 100 billion time-series data points and does not require dataset-specific training. This allows one to skip the training process and immediately start forecasting based on the data one feeds it. In this case, we feed it historical stock data.
 
 *Add architecture image*
