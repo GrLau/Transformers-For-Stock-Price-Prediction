@@ -45,17 +45,22 @@ TimesFM is a type of transformer trained on 100 billion time-series data points 
 ## Overall Results: 
 <img src="results/Model Results.JPG">
 
-### LSTM Plots (100 epochs): 
+## LSTM Plots (100 epochs): 
 <img src="results/LSTM_AAPL_100.png">
 	
 <img src="results/LSTM_AMZN_100.png">
 
-### TimesFM Plots: 
+## LSTM Plots (200 epochs): 
+<img src="results/LSTM_AAPL_200.png">
+	
+<img src="results/LSTM_AMZN_200.png">
+
+## TimesFM Plots: 
 <img src="results/TimesFm_AAPL.png">
 
 <img src="results/TimesFm_AMZN.png">
 		
-### Thoughts: 
+## Thoughts: 
 The LSTM achieved promising results  with little to no fine-tuning and TimesFM's were quite good. However, I plan to tinker with the Autoformer in the future as the results were very disappointing.
 
 ### References:
