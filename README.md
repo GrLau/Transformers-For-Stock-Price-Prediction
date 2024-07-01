@@ -33,7 +33,7 @@ TimesFM is a type of transformer that is trained on 100 billion time-series data
 ## Overall Results: 
 <img src="results/Model Results.JPG">
 
-### LSTM Plots: 
+### LSTM Plots (100 epochs): 
 <img src="results/LSTM_AAPL_100.png">
 	
 <img src="results/LSTM_AMZN_100.png">
@@ -44,7 +44,7 @@ TimesFM is a type of transformer that is trained on 100 billion time-series data
 <img src="results/TimesFm_AMZN.png">
 		
 ### Thoughts: 
-The LSTM achieved promising results  with little to no fine-tuning and TimesFM's were quite good. I plan to tinker with the Autoformer in the future as the results were very disappointing.
+The LSTM achieved promising results  with little to no fine-tuning and TimesFM's were quite good. However, I plan to tinker with the Autoformer in the future as the results were very disappointing.
 
 ### References:
 Rasul, K., Rogge, N., Simhayev, E. (2023, June 16). Yes, Transformers are Effective for Time Series Forecasting (+ Autoformer). Retrieved May 4, 2024, from https://colab.research.google.com/github/huggingface/notebooks/blob/main/examples/autoformer-transformers-are-effective.ipynb
