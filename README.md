@@ -14,17 +14,30 @@ Each model's performance is evaluated by calculating its mean absolute error (MA
 ## Autoformer
 The Autoformer is a type of transformer model, unique for its auto-correlation mechanism.
 
-*Add architecture image*
+<img src="results/Autoformer architecture.JPG" align=center>
+
+<p align="center">
+<b>Figure 1:</b> Overall architecture of Autoformer (Credits: https://arxiv.org/pdf/2106.13008)
+</p>
+
 
 ## LSTM
-The LSTM learns to retain relevant information over long sequences while discarding less important data, which makes it effective for tasks like forecasting.
+The LSTM learns to retain relevant information over long sequences while discarding less important data, which makes it effective for tasks like forecasting. We use it as a benchmark to compare against the transformer models as LSTMs are very common for time series forecasting.
 
-*Add architecture image*
+<img src="results/LSTM architecture.JPG" align=center>
+
+<p align="center">
+<b>Figure 2:</b> Overall architecture of an LSTM (Credits: https://d2l.ai/chapter_recurrent-modern/lstm.html)
+</p>
 
 ## TimesFM
-TimesFM is a type of transformer that is trained on 100 billion time-series data points and does not require dataset-specific training. This allows one to skip the training process and immediately start forecasting based on the data one feeds it. In this case, we feed it historical stock data.
+TimesFM is a type of transformer trained on 100 billion time-series data points and does not require dataset-specific training. This allows one to skip the training process and immediately start forecasting based on the data one feeds it. In this case, we feed it historical stock data.
 
-*Add architecture image*
+<img src="results/TimesFM architecture.JPG" align=center>
+
+<p align="center">
+<b>Figure 3:</b> Overall architecture of TimesFM (Credits: https://arxiv.org/pdf/2310.10688)
+</p>
 
 
 
